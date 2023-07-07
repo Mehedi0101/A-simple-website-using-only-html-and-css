@@ -26,12 +26,13 @@ nav{
     margin-right: 5%;
 }
 
-.menu-elements{
-}
-
 .menu-elements > a{
     text-decoration: none;
     color: white;
     font-size: 1.2em;
     padding: 2em
+}
+
+.banner-container{
+    background-color: rgb(35, 247, 247);
 }
