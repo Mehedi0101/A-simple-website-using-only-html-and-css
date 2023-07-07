@@ -36,3 +36,11 @@ nav{
 .banner-container{
     background-color: rgb(35, 247, 247);
 }
+
+.banner-text{
+
+}
+
+.banner-image > img{
+    width: 10px;
+}
