@@ -4,7 +4,7 @@
 }
 
 nav{
-    background-color: rgb(55, 131, 218);
+    background-color:rgb(0, 87, 87);
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -34,13 +34,41 @@ nav{
 }
 
 .banner-container{
-    background-color: rgb(35, 247, 247);
+    background:url("images/background.png"),linear-gradient(45deg,rgb(0, 102, 102),rgb(0, 97, 97));
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    color: white;
+    
 }
 
-.banner-text{
+.banner-text > h1{
+    font-size: 50px;
+}
 
+.banner-text > p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.banner-text > button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+}
+
+.banner-text > button:hover {
+    color:white;
+    background-color: rgb(0, 61, 61);
+    transform: scale(1.1);
 }
 
 .banner-image > img{
-    width: 10px;
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: 5%;
 }
